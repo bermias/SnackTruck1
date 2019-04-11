@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_box"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@id/check_box"
+           android:id="@+id/text_view"/>
+    </RelativeLayout>
+
+</layout>-->
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 tools:context=".MainActivity"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="center_vertical"
+                 android:padding="5dp"
+                 android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                 android:id="@+id/check_text"/>
